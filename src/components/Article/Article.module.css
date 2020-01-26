@@ -1,0 +1,22 @@
+ .article {
+    display: grid;
+    grid-template-rows: minmax(45px, auto) 250px;
+    width: 315px;
+    margin: 20px;
+    background-color:#ffffff;
+    max-height:300px;
+   }
+   .articleHeadlineContainer{
+    background-color: #4ad9ec;
+    color: #ffffff;
+    padding: 10px 15px;
+   }
+   .articleHeadlineText{
+    font-size: 1.2em;
+    font-weight: 600;
+    max-height: 75px;
+   }
+   .articleCopy{
+    padding:10px 15px;
+    overflow-y: hidden;
+   }

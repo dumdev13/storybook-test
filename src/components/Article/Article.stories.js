@@ -19,7 +19,6 @@ export const articleData = {
   id: '1',
   title: 'Read about the thing',
   copy: defaultArticleText, 
-  state: 'standard',
   updatedAt: new Date(2019, 0, 1, 28, 0),
 };
 
@@ -30,12 +29,6 @@ export const actionsData = {
 export const Default = () => {
   return <Article article={object('article', { ...articleData })} {...actionsData} />;
 };
-
-export const Highlighted = () => <Article article={object('article', { ...articleData, state: 'highlighted' })} {...actionsData} />;
-
-export const Suppressed = () => (
-  <Article article={object('article', { ...articleData, state: 'suppressed' })} {...actionsData} />
-);
 
 const longTitleString = 'You will not believe what these are doing in their every day shopping to save money' ;
 
