@@ -21,9 +21,9 @@ Article.propTypes = {
                 <span className={'article-headline-text'}>{limitHeadline(title)}</span>
             </div>
 
-                <div className={'article-copy'}>
-                    {limitCopy(copy)}
-                </div>
+            <div className={'article-copy'}>
+                {limitCopy(copy)}
+            </div>
 
         </div>
     );
